@@ -14,8 +14,8 @@ const App = () => {
       <NavIcon />
       <Home />
       <About />
-      {/* <Recipe />
-      <Contact />
+      <Recipe />
+      {/* <Contact />
       <Footer />  */}
     </div>
   );
