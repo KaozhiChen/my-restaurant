@@ -16,7 +16,7 @@ const App = () => {
       <About />
       <Recipe />
       <Contact />
-      {/* <Footer />  */}
+      <Footer />
     </div>
   );
 };

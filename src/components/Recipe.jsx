@@ -2,7 +2,7 @@ import React from 'react';
 import { recipes } from '../Data';
 const Recipe = () => {
   return (
-    <div className='section' id='resipe'>
+    <div className='section' id='recipe'>
       <div>
         {/* title */}
         <div className='text-3xl font-bold text-center mb-16'>

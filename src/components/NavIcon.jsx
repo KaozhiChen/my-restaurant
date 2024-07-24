@@ -18,8 +18,11 @@ const NavIcon = () => {
               <div
                 key={main.id}
                 className='text-white p-2 rounded-full bg-glass'
+                onClick={() => {
+                  setToggle(false);
+                }}
               >
-                <a href=''>{main.icon}</a>
+                <a href={`#${main.href}`}>{main.icon}</a>
               </div>
             );
           })}

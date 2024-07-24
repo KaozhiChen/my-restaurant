@@ -12,12 +12,6 @@ const Contact = () => {
           <a href='#'>Contact Us Now</a>
         </div>
       </div>
-      <p className='mt-10'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt
-        minima nam eos ducimus maxime voluptatum rerum voluptate, asperiores
-        obcaecati quis. Porro dignissimos fugit aut nemo numquam exercitationem
-        dolores delectus.
-      </p>
     </div>
   );
 };
