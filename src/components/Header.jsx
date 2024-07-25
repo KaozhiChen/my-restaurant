@@ -14,10 +14,10 @@ const Header = () => {
       } fixed top-0 left-0 w-full z-20`}
     >
       <nav className='relative container mx-auto flex items-center justify-between py-4 px-2'>
-        <div>
-          <h4 className='test-xl font-semibold'>Taste</h4>
-          <span className='text-[0.65rem] font-bold opacity-70'>
-            Restaurant & BBQ
+        <div className=''>
+          <h4 className='text-3xl font-semibold'>Taste</h4>
+          <span className='text-[0.85rem] font-bold opacity-70'>
+            Chinese Restaurant
           </span>
         </div>
         <div className='cursor-pointer w-10 h-12 bg-black rounded-t-xl rounded-br-3xl flex items-center justify-center relative'>

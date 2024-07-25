@@ -13,6 +13,11 @@ import {
 } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import noodles from '../src/assets/Food Images/tomato and egg noodles.jpg';
+import lemonFish from '../src/assets/Food Images/lemon fish.jpg';
+import fish from '../src/assets/Food Images/fish.jpg';
+import cake from '../src/assets/Food Images/strawberry cake.jpg';
+import shrimp from '../src/assets/Food Images/shrimp.jpg';
+import chicken from '../src/assets/Food Images/chicken.jpg';
 import { FiPhone, FiMail } from 'react-icons/fi';
 import { IoLocationOutline } from 'react-icons/io5';
 
@@ -29,7 +34,7 @@ export const footerContacts = [
   {
     id: 1,
     icon: <FiPhone />,
-    text: '+1-404-123-4567',
+    text: '(404)123-4567',
   },
   {
     id: 2,
@@ -60,33 +65,33 @@ export const recipes = [
   },
   {
     id: 2,
-    image: noodles,
+    image: lemonFish,
     price: '$22',
-    name: 'Tomato & Eggs Noodles',
+    name: 'Lemon Fish',
   },
   {
     id: 3,
-    image: noodles,
+    image: fish,
     price: '$22',
-    name: 'Tomato & Eggs Noodles',
+    name: 'Spicy Fish',
   },
   {
     id: 4,
-    image: noodles,
+    image: chicken,
     price: '$22',
-    name: 'Tomato & Eggs Noodles',
+    name: 'Chicken Drumstick',
   },
   {
     id: 5,
-    image: noodles,
+    image: shrimp,
     price: '$22',
-    name: 'Tomato & Eggs Noodles',
+    name: 'Shrimps',
   },
   {
     id: 6,
-    image: noodles,
+    image: cake,
     price: '$22',
-    name: 'Tomato & Eggs Noodles',
+    name: 'Strawberry Cake',
   },
 ];
 

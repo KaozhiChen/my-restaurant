@@ -53,20 +53,20 @@ const Footer = () => {
               );
             })}
           </div>
-          <div>
-            <h3 className='font-semibold text-[1.1rem] mb-4'>Contact</h3>
-            {footerContacts.map((footerContact) => {
-              return (
-                <div
-                  key={footerContact.id}
-                  className='mb-4 flex items-center gap-4'
-                >
-                  <div className='text-xl'>{footerContact.icon}</div>
-                  <div>{footerContact.text}</div>
-                </div>
-              );
-            })}
-          </div>
+        </div>
+        <div>
+          <h3 className='font-semibold text-[1.1rem] mb-4'>Contact</h3>
+          {footerContacts.map((footerContact) => {
+            return (
+              <div
+                key={footerContact.id}
+                className='mb-4 flex items-center gap-4'
+              >
+                <div className='text-xl'>{footerContact.icon}</div>
+                <div>{footerContact.text}</div>
+              </div>
+            );
+          })}
         </div>
       </div>
       <div className='flex flex-wrap justify-between gap-4 pb-8'>

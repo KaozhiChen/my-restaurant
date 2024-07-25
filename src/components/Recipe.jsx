@@ -14,9 +14,9 @@ const Recipe = () => {
             return (
               <div
                 key={recipes.id}
-                className='p-4 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer'
+                className='p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer'
               >
-                <img src={recipes.image} alt='' />
+                <img className='rounded-lg' src={recipes.image} alt='recipe' />
                 {/* name and nums */}
                 <div className='flex items-center justify-between'>
                   <div className='font-semibold md:text-lg text-[1rem] '>
@@ -25,7 +25,7 @@ const Recipe = () => {
                   {/* add or remove button */}
                   <div className='flex gap-3 items-center font-semibold'>
                     <button>-</button>
-                    <span className='text-[0.85rem]'>2</span>
+                    <span className='text-[0.85rem]'>0</span>
                     <button>+</button>
                   </div>
                 </div>
